@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(ggplot2)
 
 #Reading the esport file
-esports <- read.csv("/srv/R/CSC285_public/Shubham(Final)/ESport_Earnings.csv", header = TRUE, sep = ',' )
+esports <- read.csv(" ", header = TRUE, sep = ',' )
 
 ```
 
