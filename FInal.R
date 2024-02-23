@@ -1,4 +1,4 @@
-esports <- read.csv("/srv/R/CSC285_public/Shubham(Final)/ESport_Earnings.csv", header = TRUE, sep = ',' )
+esports <- read.csv("", header = TRUE, sep = ',' ) # add the path
 
 #Summarzing the esport data to find summary of diiferent fields to find odd and unwanted data
 summary(esports)
@@ -21,5 +21,3 @@ esports <- esports[esports$Top_Country_Earnings != 0, ]
 #since it is a outlier and the data is of time period of 1989 to 2020 we can presume the data to be 2011
 esports$Releaseyear[esports$Releaseyear == 11] <- 2011
 
-head(esports)
-summary(esports)
